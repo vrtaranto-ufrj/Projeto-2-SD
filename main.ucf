@@ -1,0 +1,44 @@
+NET "clock" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "entradas[3]" IOSTANDARD = LVCMOS33;
+NET "entradas[2]" IOSTANDARD = LVCMOS33;
+NET "entradas[1]" IOSTANDARD = LVCMOS33;
+NET "entradas[0]" IOSTANDARD = LVCMOS33;
+NET "leds[2]" IOSTANDARD = LVCMOS33;
+NET "leds[1]" IOSTANDARD = LVCMOS33;
+NET "leds[0]" IOSTANDARD = LVCMOS33;
+NET "clock" IOSTANDARD = LVCMOS33;
+NET "reset" IOSTANDARD = LVCMOS33;
+
+
+NET "entradas[3]" LOC = T9;
+NET "entradas[2]" LOC = U8;
+NET "entradas[1]" LOC = U10;
+NET "entradas[0]" LOC = V8;
+NET "leds[2]" LOC = W21;
+NET "leds[1]" LOC = Y22;
+NET "leds[0]" LOC = V20;
+NET "clock" LOC = R13;
+NET "reset" LOC = T16;
+
+
+NET "clk_sys" IOSTANDARD = LVCMOS33;
+
+
+NET "clk_sys" LOC = E12;
+
+# PlanAhead Generated IO constraints 
+
+NET "lcd[4]" IOSTANDARD = LVCMOS33;
+NET "lcd[3]" IOSTANDARD = LVCMOS33;
+NET "lcd[2]" IOSTANDARD = LVCMOS33;
+NET "lcd[1]" IOSTANDARD = LVCMOS33;
+NET "lcd[0]" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "lcd[4]" LOC = R20;
+NET "lcd[3]" LOC = T19;
+NET "lcd[2]" LOC = U20;
+NET "lcd[1]" LOC = U19;
+NET "lcd[0]" LOC = V19;
